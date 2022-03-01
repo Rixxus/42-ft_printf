@@ -6,7 +6,7 @@
 #    By: rmount <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/02/22 10:36:38 by rmount            #+#    #+#              #
-#    Updated: 2022/02/25 08:20:28 by rmount           ###   ########.fr        #
+#    Updated: 2022/03/01 09:46:37 by rmount           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,7 +16,13 @@ CFLAGS = -Wall -Werror -Wextra
 
 RM = rm -f
 
-SRCS = src/.c 
+SRCS = srcs/ft_char_type.c \
+	   srcs/ft_printf.c \
+	   srcs/ft_char_print.c \
+	   srcs/ft_str_print.c \
+	   srcs/ft_num_length.c \
+	   srcs/ft_hex_print.c \
+	   srcs/ft_num_print.c
 
 OBJS = $(SRCS:.c=.o)
 

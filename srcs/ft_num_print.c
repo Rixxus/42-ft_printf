@@ -1,19 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_char_print.c                                    :+:      :+:    :+:   */
+/*   ft_num_print.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: rmount <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/02/25 08:33:53 by rmount            #+#    #+#             */
-/*   Updated: 2022/03/01 16:08:25 by rmount           ###   ########.fr       */
+/*   Created: 2022/03/01 10:11:58 by rmount            #+#    #+#             */
+/*   Updated: 2022/03/01 10:43:07 by rmount           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-int	ft_char_print(char c)
+/* Neg check and putnbr*/
+int	ft_num_print(long long int n)
 {
-	ft_putchar_fd(c, 1);
-	return (1);
+	
 }

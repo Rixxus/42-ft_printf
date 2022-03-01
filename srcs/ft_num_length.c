@@ -1,19 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_char_print.c                                    :+:      :+:    :+:   */
+/*   ft_num_length.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: rmount <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/02/25 08:33:53 by rmount            #+#    #+#             */
-/*   Updated: 2022/03/01 16:08:25 by rmount           ###   ########.fr       */
+/*   Created: 2022/03/01 09:49:38 by rmount            #+#    #+#             */
+/*   Updated: 2022/03/01 09:51:34 by rmount           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "libft.h"
 
-int	ft_char_print(char c)
+int	ft_num_length(size_t n, int radix)
 {
-	ft_putchar_fd(c, 1);
-	return (1);
+
 }
