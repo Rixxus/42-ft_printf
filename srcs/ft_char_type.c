@@ -6,7 +6,7 @@
 /*   By: rmount <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/25 08:49:41 by rmount            #+#    #+#             */
-/*   Updated: 2022/03/01 16:32:11 by rmount           ###   ########.fr       */
+/*   Updated: 2022/03/02 08:59:35 by rmount           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ int	ft_char_type(const char c, va_list v, int *i)
 	if (c == 'c')
 		return (ft_char_print(va_arg(v, int)));
 	if (c == 's')
-		return (ft_strprint(v));
+		return (ft_str_print(v));
 	if (c == 'i' || c == 'd')
 		return (ft_num_print(va_arg(v, int)));
 	if (c == 'u')

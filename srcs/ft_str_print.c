@@ -6,14 +6,14 @@
 /*   By: rmount <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/25 08:42:02 by rmount            #+#    #+#             */
-/*   Updated: 2022/03/01 16:48:33 by rmount           ###   ########.fr       */
+/*   Updated: 2022/03/02 08:19:24 by rmount           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
 /* Function takes the va_list passed from ft_char_type and prints with 
- * ft_putstr_fd either -  (null) if str is null, or prints the string.
+ * ft_putstr_fd either - (null) if str is null, or prints the string.
  *
  * It then calls ft_strlen and returns the count. */
 

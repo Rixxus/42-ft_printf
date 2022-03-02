@@ -6,7 +6,7 @@
 #    By: rmount <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/02/22 10:36:38 by rmount            #+#    #+#              #
-#    Updated: 2022/03/01 09:46:37 by rmount           ###   ########.fr        #
+#    Updated: 2022/03/02 10:15:27 by rmount           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -24,21 +24,21 @@ SRCS = srcs/ft_char_type.c \
 	   srcs/ft_hex_print.c \
 	   srcs/ft_num_print.c
 
-OBJS = $(SRCS:.c=.o)
+OJB_DEST = mv *.o srcs
 
-%.o: %.c
-	$(CC) -c $(CFLAGS) -I headers $< -o $(<:.c=.o)
+OBJS = $(SRCS:.c=.o)
 
 all: $(NAME)
 
-$(NAME): $(0BJS)
+$(NAME):
 	$(MAKE) -C ./libft
 	cp libft/libft.a $(NAME)
+	$(CC) $(CFLAGS) $(SRCS
 	ar -rcs $(NAME) $(OBJS)
 
 clean:
-	$(MAKE) clean -C ./libft
 	$(RM) $(OBJS)
+	$(MAKE) clean -C ./libft
 
 fclean: clean
 	$(MAKE) fclean -C ./libft
