@@ -6,7 +6,7 @@
 /*   By: rmount <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/01 09:49:38 by rmount            #+#    #+#             */
-/*   Updated: 2022/03/01 09:51:34 by rmount           ###   ########.fr       */
+/*   Updated: 2022/03/04 12:01:33 by rmount           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,5 +14,15 @@
 
 int	ft_num_length(size_t n, int radix)
 {
+	int	count;
 
+	if (!n)
+		return (1);
+	count = 0;
+	while (n > 0)
+	{
+		n /= radix;
+		count++;
+	}
+	return (count);
 }
