@@ -6,17 +6,17 @@
 /*   By: rmount <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/24 13:45:19 by rmount            #+#    #+#             */
-/*   Updated: 2022/03/07 13:28:58 by rmount           ###   ########.fr       */
+/*   Updated: 2022/03/07 15:58:45 by rmount           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FT_PRINTF_H
 # define FT_PRINTF_H
 
-#include <stdarg.h>
-#include <stdlib.h>
-#include <stdio.h>
-#include "libft.h"
+# include <stdarg.h>
+# include <stdlib.h>
+# include <stdio.h>
+# include "libft.h"
 
 int	ft_char_type(const char c, va_list v, int *i);
 int	ft_printf(const char *str, ...);
