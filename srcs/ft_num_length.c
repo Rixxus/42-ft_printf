@@ -6,11 +6,11 @@
 /*   By: rmount <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/01 09:49:38 by rmount            #+#    #+#             */
-/*   Updated: 2022/03/07 09:12:40 by rmount           ###   ########.fr       */
+/*   Updated: 2022/03/07 13:27:30 by rmount           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "ft_printf.h"
 
 /* This function counts the number of digits in a number by dividing by the
  * supplied radix - for decimal numbers it require ten, for hexadecimal
